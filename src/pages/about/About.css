@@ -1,0 +1,46 @@
+.bgimage-fooldal {
+    width:100%;
+    height:600px;
+    /* background-color: rgb(210, 205, 218); */
+    /* background: url('https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'); */
+    /* background: url("../../assets/images/clg3.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    /* background-attachment: fixed; */
+    position:relative;
+}
+  .hero-text-fooldal {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+     /* color: aliceblue; */
+  }
+
+  .title{
+    
+    font-size:5ch;
+ }
+ .desc{
+    color: black;
+    /* color: rgb(48, 48, 182); */
+    text-align: left;
+    justify-content: center;
+    font-size: 2ch;
+ }
+ .a button {
+   position: absolute;
+   top:50%;
+   background-color:#0a0a23;
+   color: #fff;
+   border:none; 
+   border-radius:10px; 
+   padding:15px;
+   min-height:30px; 
+   min-width: 120px;
+ }
+ .row{
+   margin-top: 15px;
+ }
